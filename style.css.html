@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>style.css</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #7a7e85;}
+.s1 { color: #bcbec4;}
+.s2 { color: #d5b778;}
+.s3 { color: #bcbec4;}
+.s4 { color: #bababa;}
+.s5 { color: #bcbec4;}
+.s6 { color: #6aab73;}
+.s7 { color: #2aacb8;}
+.s8 { color: #56a8f5;}
+.s9 { color: #cf8e6d;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+style.css</font>
+</center></td></tr></table>
+<pre><span class="s0">/* Estilos generales */</span>
+<span class="s2">body </span><span class="s3">{</span>
+  <span class="s4">font-family</span><span class="s5">: </span><span class="s6">'Arial'</span><span class="s3">, </span><span class="s6">sans-serif</span><span class="s3">;</span>
+  <span class="s4">margin</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#f0f0f0</span><span class="s3">;</span>
+  <span class="s4">overflow-x</span><span class="s5">: </span><span class="s6">hidden</span><span class="s3">; </span><span class="s0">/* Evitar desplazamiento horizontal */</span>
+<span class="s3">}</span>
+<span class="s2">header </span><span class="s3">{</span>
+  <span class="s4">background</span><span class="s5">: </span><span class="s8">#edbb99</span><span class="s3">; </span><span class="s0">/* Degradado moderno */</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#fff</span><span class="s3">;</span>
+  <span class="s4">text-align</span><span class="s5">: </span><span class="s6">center</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s7">50</span><span class="s6">px </span><span class="s7">20</span><span class="s6">px</span><span class="s3">;</span>
+  <span class="s4">border-bottom</span><span class="s5">: </span><span class="s7">5</span><span class="s6">px solid </span><span class="s8">#fff</span><span class="s3">;</span>
+  <span class="s4">position</span><span class="s5">: </span><span class="s6">relative</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s0">/* Título con animación */</span>
+<span class="s2">header h1 </span><span class="s3">{</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s7">3</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s4">margin</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s4">font-family</span><span class="s5">: </span><span class="s6">&quot;Sniglet&quot;</span><span class="s3">, </span><span class="s2">system-ui</span><span class="s3">;;</span>
+  <span class="s4">font-weight</span><span class="s5">: </span><span class="s7">400</span><span class="s3">;</span>
+  <span class="s4">font-style</span><span class="s5">: </span><span class="s6">normal</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#fff</span><span class="s3">;</span>
+  <span class="s4">letter-spacing</span><span class="s5">: </span><span class="s7">2</span><span class="s6">px</span><span class="s3">;</span>
+  <span class="s4">text-transform</span><span class="s5">: </span><span class="s6">uppercase</span><span class="s3">;</span>
+  <span class="s4">animation</span><span class="s5">: </span><span class="s2">slideIn </span><span class="s7">2</span><span class="s6">s ease-out forwards</span><span class="s3">; </span><span class="s0">/* Animación de aparición */</span>
+<span class="s3">}</span>
+
+
+
+
+<span class="s0">/* Subtítulo */</span>
+<span class="s2">header p </span><span class="s3">{</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s7">1.5</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s4">margin-top</span><span class="s5">: </span><span class="s7">20</span><span class="s6">px</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#f7f7f7</span><span class="s3">;</span>
+  <span class="s4">opacity</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s4">animation</span><span class="s5">: </span><span class="s2">fadeIn </span><span class="s7">3</span><span class="s6">s ease-in forwards</span><span class="s3">; </span><span class="s0">/* Animación de aparición gradual */</span>
+  <span class="s4">animation-delay</span><span class="s5">: </span><span class="s7">1</span><span class="s6">s</span><span class="s3">; </span><span class="s0">/* Espera 1 segundo antes de empezar la animación */</span>
+<span class="s3">}</span>
+
+<span class="s0">/* Imagen con animación de aparición */</span>
+<span class="s2">header img </span><span class="s3">{</span>
+  <span class="s4">width</span><span class="s5">: </span><span class="s7">80</span><span class="s3">%;</span>
+  <span class="s4">max-width</span><span class="s5">: </span><span class="s7">600</span><span class="s6">px</span><span class="s3">;</span>
+  <span class="s4">height</span><span class="s5">: </span><span class="s6">auto</span><span class="s3">;</span>
+  <span class="s4">margin-top</span><span class="s5">: </span><span class="s7">30</span><span class="s6">px</span><span class="s3">;</span>
+  <span class="s4">opacity</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s4">animation</span><span class="s5">: </span><span class="s2">fadeIn </span><span class="s7">2</span><span class="s6">s ease-in forwards</span><span class="s3">;</span>
+  <span class="s4">animation-delay</span><span class="s5">: </span><span class="s7">2</span><span class="s6">s</span><span class="s3">; </span><span class="s0">/* Espera 2 segundos para la imagen */</span>
+<span class="s3">}</span>
+
+<span class="s0">/* Animaciones */</span>
+<span class="s9">@keyframes </span><span class="s2">slideIn </span><span class="s3">{</span>
+  <span class="s2">0% </span><span class="s3">{</span>
+    <span class="s4">transform</span><span class="s5">: </span><span class="s2">translateX</span><span class="s3">(-</span><span class="s7">100</span><span class="s3">%);</span>
+    <span class="s4">opacity</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s3">}</span>
+  <span class="s2">100% </span><span class="s3">{</span>
+    <span class="s4">transform</span><span class="s5">: </span><span class="s2">translateX</span><span class="s3">(</span><span class="s7">0</span><span class="s3">);</span>
+    <span class="s4">opacity</span><span class="s5">: </span><span class="s7">1</span><span class="s3">;</span>
+  <span class="s3">}</span>
+<span class="s3">}</span>
+
+<span class="s9">@keyframes </span><span class="s2">fadeIn </span><span class="s3">{</span>
+  <span class="s2">0% </span><span class="s3">{</span>
+    <span class="s4">opacity</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s3">}</span>
+  <span class="s2">100% </span><span class="s3">{</span>
+    <span class="s4">opacity</span><span class="s5">: </span><span class="s7">1</span><span class="s3">;</span>
+  <span class="s3">}</span>
+<span class="s3">}</span>
+
+<span class="s2">section </span><span class="s3">{</span>
+  <span class="s4">text-align</span><span class="s5">: </span><span class="s6">center</span><span class="s3">;</span>
+  <span class="s4">padding</span><span class="s5">: </span><span class="s7">50</span><span class="s6">px </span><span class="s7">20</span><span class="s6">px</span><span class="s3">;</span>
+  <span class="s4">background-color</span><span class="s5">: </span><span class="s8">#f8e3d1</span><span class="s3">; </span><span class="s0">/* Fondo suave */</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#5a4d4f</span><span class="s3">; </span><span class="s0">/* Color de texto */</span>
+  <span class="s4">font-family</span><span class="s5">: </span><span class="s6">'Great Vibes'</span><span class="s3">, </span><span class="s6">cursive</span><span class="s3">; </span><span class="s0">/* Mismo estilo de fuente delicada */</span>
+  <span class="s4">border-top</span><span class="s5">: </span><span class="s7">5</span><span class="s6">px solid </span><span class="s8">#edbb99</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s2">section h2 </span><span class="s3">{</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s7">3</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s4">margin-bottom</span><span class="s5">: </span><span class="s7">10</span><span class="s6">px</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#edbb99</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s2">section p </span><span class="s3">{</span>
+  <span class="s4">font-size</span><span class="s5">: </span><span class="s7">1.3</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s4">line-height</span><span class="s5">: </span><span class="s7">1.6</span><span class="s3">;</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#5a4d4f</span><span class="s3">;</span>
+  <span class="s4">opacity</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s4">animation</span><span class="s5">: </span><span class="s2">fadeIn </span><span class="s7">3</span><span class="s6">s ease-in forwards</span><span class="s3">;</span>
+  <span class="s4">animation-delay</span><span class="s5">: </span><span class="s7">1</span><span class="s6">s</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s0">/* Galería de fotos */</span>
+<span class="s3">.</span><span class="s2">photo-gallery </span><span class="s3">{</span>
+  <span class="s4">display</span><span class="s5">: </span><span class="s6">grid</span><span class="s3">;</span>
+  <span class="s4">grid-template-columns</span><span class="s5">: </span><span class="s2">repeat</span><span class="s3">(</span><span class="s6">auto-fill</span><span class="s3">, </span><span class="s2">minmax</span><span class="s3">(</span><span class="s7">250</span><span class="s6">px</span><span class="s3">, </span><span class="s7">1</span><span class="s6">fr</span><span class="s3">));</span>
+  <span class="s4">gap</span><span class="s5">: </span><span class="s7">20</span><span class="s6">px</span><span class="s3">;</span>
+  <span class="s4">margin-top</span><span class="s5">: </span><span class="s7">30</span><span class="s6">px</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s3">.</span><span class="s2">photo-gallery img </span><span class="s3">{</span>
+  <span class="s4">width</span><span class="s5">: </span><span class="s7">100</span><span class="s3">%;</span>
+  <span class="s4">height</span><span class="s5">: </span><span class="s6">auto</span><span class="s3">;</span>
+  <span class="s4">border-radius</span><span class="s5">: </span><span class="s7">10</span><span class="s6">px</span><span class="s3">;</span>
+  <span class="s4">object-fit</span><span class="s5">: </span><span class="s6">cover</span><span class="s3">;</span>
+  <span class="s4">box-shadow</span><span class="s5">: </span><span class="s7">0 4</span><span class="s6">px </span><span class="s7">8</span><span class="s6">px </span><span class="s2">rgba</span><span class="s3">(</span><span class="s7">0</span><span class="s3">, </span><span class="s7">0</span><span class="s3">, </span><span class="s7">0</span><span class="s3">, </span><span class="s7">0.1</span><span class="s3">);</span>
+  <span class="s4">opacity</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s4">animation</span><span class="s5">: </span><span class="s2">fadeInImages </span><span class="s7">2</span><span class="s6">s ease-out forwards</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s9">@keyframes </span><span class="s2">fadeInImages </span><span class="s3">{</span>
+  <span class="s2">0% </span><span class="s3">{</span>
+    <span class="s4">transform</span><span class="s5">: </span><span class="s2">translateY</span><span class="s3">(</span><span class="s7">30</span><span class="s6">px</span><span class="s3">);</span>
+    <span class="s4">opacity</span><span class="s5">: </span><span class="s7">0</span><span class="s3">;</span>
+  <span class="s3">}</span>
+  <span class="s2">100% </span><span class="s3">{</span>
+    <span class="s4">transform</span><span class="s5">: </span><span class="s2">translateY</span><span class="s3">(</span><span class="s7">0</span><span class="s3">);</span>
+    <span class="s4">opacity</span><span class="s5">: </span><span class="s7">1</span><span class="s3">;</span>
+  <span class="s3">}</span>
+<span class="s3">}</span>
+
+<span class="s0">/* Efecto hover en los textos */</span>
+<span class="s2">header h1</span><span class="s5">:</span><span class="s2">hover </span><span class="s3">{</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#ffd700</span><span class="s3">; </span><span class="s0">/* Cambio de color al pasar el mouse */</span>
+  <span class="s4">transform</span><span class="s5">: </span><span class="s2">scale</span><span class="s3">(</span><span class="s7">1.05</span><span class="s3">);</span>
+  <span class="s4">transition</span><span class="s5">: </span><span class="s2">transform </span><span class="s7">0.3</span><span class="s6">s ease</span><span class="s3">, </span><span class="s6">color </span><span class="s7">0.3</span><span class="s6">s ease</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s2">header p</span><span class="s5">:</span><span class="s2">hover </span><span class="s3">{</span>
+  <span class="s4">color</span><span class="s5">: </span><span class="s8">#ffd700</span><span class="s3">;</span>
+  <span class="s4">transform</span><span class="s5">: </span><span class="s2">scale</span><span class="s3">(</span><span class="s7">1.05</span><span class="s3">);</span>
+  <span class="s4">transition</span><span class="s5">: </span><span class="s2">transform </span><span class="s7">0.3</span><span class="s6">s ease</span><span class="s3">, </span><span class="s6">color </span><span class="s7">0.3</span><span class="s6">s ease</span><span class="s3">;</span>
+<span class="s3">}</span>
+
+<span class="s0">/* Estilos responsivos */</span>
+<span class="s9">@media </span><span class="s3">(</span><span class="s4">max-width</span><span class="s5">: </span><span class="s7">768</span><span class="s6">px</span><span class="s3">) {</span>
+  <span class="s2">header h1 </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s7">2.5</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s2">header p </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s7">1.2</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s2">header img </span><span class="s3">{</span>
+    <span class="s4">width</span><span class="s5">: </span><span class="s7">90</span><span class="s3">%;</span>
+  <span class="s3">}</span>
+  <span class="s2">section h2 </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s7">2.5</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s2">section p </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s7">1.1</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+<span class="s3">}</span>
+
+<span class="s9">@media </span><span class="s3">(</span><span class="s4">max-width</span><span class="s5">: </span><span class="s7">480</span><span class="s6">px</span><span class="s3">) {</span>
+  <span class="s2">header h1 </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s7">2</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s2">header p </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s7">1</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s2">header img </span><span class="s3">{</span>
+    <span class="s4">width</span><span class="s5">: </span><span class="s7">100</span><span class="s3">%;</span>
+  <span class="s3">}</span>
+  <span class="s2">section h2 </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s7">2</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s3">}</span>
+
+  <span class="s2">section p </span><span class="s3">{</span>
+    <span class="s4">font-size</span><span class="s5">: </span><span class="s7">1</span><span class="s6">em</span><span class="s3">;</span>
+  <span class="s3">}</span>
+<span class="s3">}</span>
+</pre>
+</body>
+</html>
